@@ -1,1 +1,1 @@
-# BullsEye
+ Theme: Modern gradient design with blue/purple/emerald/orange colors, rounded corners, hover animations, glass morphism effectsRetryClaude can make mistakes. Please double-check responses.
