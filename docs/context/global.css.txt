@@ -1,0 +1,23 @@
+FILE: global.css
+
+This global CSS file provides the foundational styling system for the application. It establishes a complete design system with CSS custom properties for colors, shadows, and theme switching between light and dark modes using data-theme="dark" attribute.
+
+Key Features:
+- Complete color system with --bg-primary, --bg-secondary, --bg-surface for backgrounds
+- Text colors: --text-primary, --text-secondary, --text-muted
+- Border colors: --border, --border-light
+- Theme colors: --primary, --primary-hover, --primary-light
+- Accent colors: --muted-gray, --muted-yellow, --muted-orange, --muted-green, --muted-purple
+- Shadow system: --shadow-sm through --shadow-xl
+- JetBrains Mono font family applied globally
+- CSS reset with box-sizing border-box
+- Custom scrollbar styling matching theme colors
+- Global focus states for accessibility using --primary color
+- Typography base styles for headings and paragraphs
+- Form elements (input, textarea, select) with consistent theming
+- Link styling with hover effects using theme colors
+- Text selection styling
+- Button base styling
+- Code element styling
+
+The file automatically switches all variables when data-theme="dark" is applied to any parent element, making theme switching seamless across components.
