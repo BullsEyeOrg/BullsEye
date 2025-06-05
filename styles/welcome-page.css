@@ -222,8 +222,24 @@
   width: 3rem;
   height: 3rem;
   background: var(--primary-light);
-  color: var(--primary);
+  border-radius: 12px;
   flex-shrink: 0;
+}
+
+/* Colorful capability icons */
+.capability-item:nth-child(1) .capability-icon {
+  background: rgba(234, 179, 8, 0.1);
+  color: #eab308;
+}
+
+.capability-item:nth-child(2) .capability-icon {
+  background: rgba(139, 92, 246, 0.1);
+  color: #8b5cf6;
+}
+
+.capability-item:nth-child(3) .capability-icon {
+  background: rgba(34, 197, 94, 0.1);
+  color: #22c55e;
 }
 
 .capability-title {
@@ -274,6 +290,7 @@
   padding: 2rem;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
+  border-radius: 16px;
   transition: all 0.2s ease;
 }
 
@@ -289,7 +306,29 @@
   justify-content: center;
   width: 3.5rem;
   height: 3.5rem;
+  border-radius: 16px;
   margin-bottom: 1.5rem;
+}
+
+/* Colorful feature icons based on order */
+.feature-card:nth-child(1) .feature-icon {
+  background: rgba(34, 197, 94, 0.1);
+  color: #22c55e;
+}
+
+.feature-card:nth-child(2) .feature-icon {
+  background: rgba(139, 92, 246, 0.1);
+  color: #8b5cf6;
+}
+
+.feature-card:nth-child(3) .feature-icon {
+  background: rgba(249, 115, 22, 0.1);
+  color: #f97316;
+}
+
+.feature-card:nth-child(4) .feature-icon {
+  background: rgba(234, 179, 8, 0.1);
+  color: #eab308;
 }
 
 .accent-green {
@@ -335,6 +374,7 @@
   margin: 0 auto;
   background: var(--bg-surface);
   border: 1px solid var(--border);
+  border-radius: 16px;
   overflow: hidden;
 }
 
@@ -358,17 +398,21 @@
   justify-content: center;
   width: 2.5rem;
   height: 2.5rem;
+  border-radius: 8px;
   flex-shrink: 0;
 }
 
+/* Keep chat avatars in theme colors (black/white) */
 .user-avatar {
-  background: var(--primary-light);
-  color: var(--primary);
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
 }
 
 .ai-avatar {
-  background: var(--muted-green);
-  color: #22c55e;
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
 }
 
 .message-content {
@@ -414,6 +458,7 @@
   padding: 3rem 2rem;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
+  border-radius: 16px;
   transition: all 0.2s ease;
 }
 
@@ -428,7 +473,24 @@
   justify-content: center;
   width: 4rem;
   height: 4rem;
+  border-radius: 16px;
   margin: 0 auto 1.5rem;
+}
+
+/* Colorful stat icons */
+.stat-card:nth-child(1) .stat-icon {
+  background: rgba(34, 197, 94, 0.1);
+  color: #22c55e;
+}
+
+.stat-card:nth-child(2) .stat-icon {
+  background: rgba(139, 92, 246, 0.1);
+  color: #8b5cf6;
+}
+
+.stat-card:nth-child(3) .stat-icon {
+  background: rgba(249, 115, 22, 0.1);
+  color: #f97316;
 }
 
 .stat-value {

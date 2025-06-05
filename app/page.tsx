@@ -276,7 +276,7 @@ export default function BullsEyeWelcome() {
           <div className="stats-grid">
             {stats.map((stat, index) => (
               <div key={index} className="stat-card">
-                <div className={`stat-icon accent-${stat.accent}`}>
+                <div className="stat-icon" style={{ background: 'transparent' }}>
                   {stat.icon}
                 </div>
                 <div className="stat-value">
